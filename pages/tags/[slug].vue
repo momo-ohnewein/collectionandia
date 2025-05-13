@@ -62,9 +62,5 @@ useHead({
 </template>
 
 <style scoped>
-li { 
-list-style: none;
-display: inline-block;
-padding: 4px;
-}
+
 </style>

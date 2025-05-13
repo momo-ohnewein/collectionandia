@@ -15,9 +15,5 @@ const { page } = useContent();
 </script>
 
 <style scoped>
-li { 
-list-style: none;
-display: inline-block;
-padding-right: 4px;
-}
+
 </style>

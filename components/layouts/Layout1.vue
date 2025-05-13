@@ -5,10 +5,12 @@
         <Drawer />
       </div>
       <div class="container">
-        <h1 class="text-3xl md:text-3xl lg:text-6xl lg:mb-10 font-bold">{{ data.title }}</h1>
-        <p class="text-lg md:text-2xl lg:text-xl pb-10 font-bold">{{ data.description }}</p>
+        <h1 class="text-3xl md:text-3xl lg:text-6xl lg:mb-10 font-bold montserrat-bold">{{ data.title }}</h1>
+        <p class="text-lg md:text-2xl lg:text-xl pb-10 font-bold montserrat-semibold">{{ data.description }}</p>
 
+        <div class="roboto-thin">
         <ContentRenderer :value="data" />
+        </div>
 
         <div v-if="data.imagegallery && data.imagegallery.showgallery == true" class="pt-10 pb-20">
             <ImageGallery />
