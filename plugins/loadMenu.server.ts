@@ -1,11 +1,17 @@
-import { promises as fs } from 'fs';
-import { join } from 'path';
+import { promises as fs } from 'fs'
+import { join } from 'path'
+import { defineNuxtPlugin } from '#app'
 
 export default defineNuxtPlugin(async (nuxtApp) => {
-  const filePath = join(process.cwd(), '/public/_data', 'menus.json');
-  const fileContent = await fs.readFile(filePath, 'utf8');
-  const menuData = JSON.parse(fileContent);
+  const filePath = join(process.cwd(), 'public/_data', 'menus.json')
 
-  // Provide the menu data globally
-  nuxtApp.provide('menuData', menuData.menu);
-});
+  try {
+    const fileContent = await fs.readFile(filePath, 'utf8')
+    const menuData = JSON.parse(fileContent)
+
+    nuxtApp.provide('menuData', menuData.menu)
+  } catch (err) {
+    console.warn('menus.json not found or failed to load:', (err as Error).message)
+    nuxtApp.provide('menuData', []) // fallback to empty array or null
+  }
+})
