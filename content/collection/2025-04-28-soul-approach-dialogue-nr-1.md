@@ -1,12 +1,13 @@
 ---
-title: Soul approach - Dialogue Nr. 1
+title: Soul approach - Dialogue Nr.1
+reftags: []
 imagegallery:
-  showgallery: true
+  showgallery: false
   carouselgrid: carousel
+thumbnail: /img/alexandre-lallemand-vn9s31R3n4Q-unsplash.jpg
 date: 2025-04-28T20:08:50.788Z
-numbernavigation: 13
-layout:
-  - layout1
+numbernavigation: 0
+layout: layout1
 description: Following one focus of the research, the following dialogue
   explores the interpretative perception of a provided image of a generic rock
   on the level of the soul. Through reflective inquiry, the object’s presence

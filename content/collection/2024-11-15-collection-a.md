@@ -3,8 +3,7 @@ title: Dialoge with an AI
 subtitle: on how to perceive a stone
 related_page:
   - 2024-11-17-example-page-a
-reftags:
-  - Tag A
+reftags: []
 imagegallery:
   showgallery: false
   carouselgrid: carousel
@@ -14,12 +13,12 @@ imagegallery:
   gallerytext: ""
 thumbnail: /img/stein.jpeg
 date: 2024-11-15T12:58:59.910Z
-layout: layout5
+layout: layout1
 mainincluded: true
 tags:
   - Tag 1
 collectionincluded: true
-numbernavigation: 11
+numbernavigation: 0
 description: ""
 ---
 **Introduction**

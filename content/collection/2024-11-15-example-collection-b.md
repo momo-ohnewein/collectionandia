@@ -2,20 +2,20 @@
 title: Analytical approach - Dialogue Nr.1
 subtitle: ""
 imagegallery:
-  showgallery: false
+  showgallery: true
   carouselgrid: grid
   galleryImages:
     - /img/pierre-chatel-innocenti-2MoEcGNUj-I-unsplash.jpg
     - /img/pat-krupa-oM9L2V90-i4-unsplash.jpg
     - /img/pierre-chatel-innocenti-xovRcLRpX20-unsplash.jpg
-thumbnail: ""
+thumbnail: /img/stein.jpeg
 date: 2024-11-15T21:56:56.704Z
 layout: layout1
 mainincluded: true
 tags:
   - Tag 1
 collectionincluded: true
-numbernavigation: 1
+numbernavigation: 0
 description: Following one focus of the research, the following dialogue
   explores the analytical interpretation and perception of a provided image of a
   generic rock. Through close observation, the object’s visual characteristics —

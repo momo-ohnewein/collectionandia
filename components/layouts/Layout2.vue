@@ -81,16 +81,7 @@
     <!-- Loading the ShareButtons component -->
     <ShareButtons/>
 
-    <!-- SEO metadata -->
-    <Title>{{ data.title }}</Title>
-    <Meta name="description" :content="data.description" />
-    <Meta name="tags" :content="data.tags.join(', ')" />
-    <Meta name="keywords" :content="data.tags.join(', ')" />
-    <Meta property="og:title" :content="data.title" />
-    <Meta property="og:description" :content="data.description" />
-    <Meta property="og:image" :content="data.thumbnail" />
-    <Meta property="og:url" :content="data.url" />
-    <Meta property="og:type" content="article" />
+
   </ClientOnly>
   </div>
 
