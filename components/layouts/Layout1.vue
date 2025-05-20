@@ -6,6 +6,8 @@
       </div>
       <div class="container">
         <h1 class="text-3xl md:text-3xl lg:text-6xl lg:mb-10 font-bold montserrat-bold">{{ data.title }}</h1>
+        <h1 class="text-2xl md:text-2xl lg:text-4xl lg:mb-10 font-bold montserrat-bold">{{ data.subtitle }}</h1>
+
         <p class="text-lg md:text-2xl lg:text-xl pb-10 font-bold montserrat-semibold">{{ data.description }}</p>
 
         <div class="roboto-thin">
