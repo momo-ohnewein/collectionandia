@@ -13,7 +13,7 @@ imagegallery:
   gallerytext: ""
 thumbnail: /img/stein.jpeg
 date: 2024-11-15T12:58:59.910Z
-layout: layout1
+layout: layout2
 mainincluded: true
 tags:
   - Tag 1

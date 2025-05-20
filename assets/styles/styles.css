@@ -15,3 +15,12 @@ hr{
     margin-top: 1.5em;
     margin-bottom: 1.5em;
 }
+
+ol{
+    display:block;
+}
+ol, ul, menu {
+    list-style:disc ;
+    margin: 0;
+    padding: 0;
+}
